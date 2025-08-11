@@ -8,17 +8,17 @@ import { BiSolidGrid } from "react-icons/bi";
 import { LuSquareUser } from "react-icons/lu";
 const Main = () => {
 
-    // const photos = [
-    //     {img:'https://images.unsplash.com/photo-1649848726244-2743c909d2ab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1675262205411-07c9473ab538?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1614483573119-1e3b2be05565?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    //     {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
-    // ]
+    const photos = [
+        {img:'https://images.unsplash.com/photo-1649848726244-2743c909d2ab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1675262205411-07c9473ab538?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1614483573119-1e3b2be05565?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1581290647908-45af335c316d?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+        {img:'https://images.unsplash.com/photo-1701303832184-9307995fd772?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+    ]
   return (
     <div className='h-screen w-full text-white bg-black'>
      <div className="nav flex justify-between text-2xl items-center list-none px-4 h-12 border-b-2 border-[#222]">
@@ -85,13 +85,13 @@ const Main = () => {
             </div>
         </div>
       <div className="grid grid-cols-3 gap-1 ">
-             {/* {photos.map((item,index)=>{
+             {photos.map((item,index)=>{
                 return(
                     <div key={index} className="aspect-square bg-blue-300">
                        <img className='h-full w-full  object-cover' src={item.img} alt="" />
                     </div>
                 )
-             })} */}
+             })}
       </div>
      </div>
     </div>
